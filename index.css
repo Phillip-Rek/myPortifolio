@@ -13,9 +13,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     z-index: -1;
-    clip-path: polygon(100% 0%, 100% 450px, 100px 100%, 0% 100%, 0 0);
+    clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0% 90%, 0 0);
+}
+
+.banner>content {
+    padding: 90px;
 }
 
 .banner>.content>h1 {
@@ -28,12 +32,31 @@
     align-content: center;
 }
 
+.contacts {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.contacts-items>span>span {
+    margin-left: 10px;
+}
+
+.fa {
+    margin: 3px;
+}
+
 .content {
     color: white;
 }
 
-.content>h1 {
-    margin-bottom: 100px;
+.content>h1,
+.content>h2 {
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .connect-container {
@@ -54,7 +77,7 @@
 
 .content-item {
     height: 200px;
-    min-width: 300px;
+    min-width: 290px;
     margin: 10px 10px 10px 10px;
     flex: 1;
     border-radius: 7px;
@@ -78,15 +101,18 @@ a.fa {
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    box-shadow: 1px 1px 10px rgb(47, 113, 167);
+    box-shadow: 1px 1px 10px rgb(255, 255, 255);
     border-radius: 30%;
 }
 
 .profile-pic>a>img {
     border-radius: 50px;
-    orientation: landscape;
 }
 
 .profile-pic {
     margin: 5px;
+}
+
+.rotate90 {
+    rotate: -90deg;
 }
