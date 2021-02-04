@@ -1,11 +1,17 @@
+a.fa {
+    color: white;
+    text-decoration: none;
+}
+
 * {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0px;
     margin: 0px;
 }
 
 .banner {
     background-image: url("./public/pexels-tranmautritam-326503.jpg");
-    min-height: 600px;
+    min-height: 650px;
     width: auto;
     background-size: cover;
     background-color: rgb(90, 90, 90);
@@ -45,10 +51,6 @@
     margin-left: 10px;
 }
 
-.fa {
-    margin: 3px;
-}
-
 .content {
     color: white;
 }
@@ -84,9 +86,28 @@
     box-shadow: 2px 2px 5px rgb(102, 90, 90);
 }
 
-a.fa {
+.fa {
+    margin: 3px;
+}
+
+footer {
+    text-align: center;
     color: white;
-    text-decoration: none;
+    background-color: black;
+}
+
+.item-image {
+    height: 145px;
+    background-color: rgb(150, 221, 197);
+}
+
+.learn-more>button {
+    width: 95%;
+    height: 27px;
+    background-color: rgb(13, 103, 163);
+    color: white;
+    border: none;
+    border-radius: 3px;
 }
 
 .main-content {
@@ -95,13 +116,39 @@ a.fa {
     justify-content: space-evenly;
 }
 
+.portifolio {
+    background-color: rgb(89, 131, 107);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 5px 0px 5px 0px;
+}
+
+.portifolio-heading {
+    text-align: center;
+}
+
+.portifolio-item {
+    width: 300px;
+    background-color: white;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.portifolio-item>h3 {
+    background-color: rgb(197, 197, 197);
+}
+
 .profile {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    box-shadow: 1px 1px 10px rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgb(219, 208, 208);
     border-radius: 30%;
 }
 
@@ -114,5 +161,5 @@ a.fa {
 }
 
 .rotate90 {
-    rotate: -90deg;
+    transform: rotate(-90deg);
 }
