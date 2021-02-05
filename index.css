@@ -97,8 +97,20 @@ footer {
 }
 
 .item-image {
-    height: 145px;
-    background-color: rgb(150, 221, 197);
+    height: 135px;
+    margin: 5px 0px 5px 0px;
+    background-image: url(./public/pexels-pixabay-39284.jpg);
+    background-size: cover;
+    background-color: rgb(194, 181, 181);
+    background-blend-mode: darken;
+}
+
+.item-image:hover {
+    background-color: transparent;
+}
+
+.item-image>img {
+    height: 100%;
 }
 
 .learn-more>button {
@@ -117,7 +129,7 @@ footer {
 }
 
 .portifolio {
-    background-color: rgb(89, 131, 107);
+    background-color: rgb(230, 217, 217);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -131,15 +143,21 @@ footer {
 
 .portifolio-item {
     width: 300px;
-    background-color: white;
+    background-color: rgb(230, 217, 217);
     height: 200px;
     margin: 5px;
     border-radius: 5px;
     text-align: center;
+    border: 1px solid rgb(131, 115, 115);
+}
+
+.portifolio-item:hover {
+    border: 1px solid rgb(13, 103, 163);
+    background-color: white;
 }
 
 .portifolio-item>h3 {
-    background-color: rgb(197, 197, 197);
+    background-color: transparent;
 }
 
 .profile {
