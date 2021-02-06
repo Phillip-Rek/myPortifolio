@@ -33,9 +33,47 @@ a.fa {
 }
 
 .blog-post {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid slategrey;
+    border-radius: 5px;
+}
+
+.blog-post>.info {
+    max-width: 300px;
+}
+
+.blog-post>.info>.read-more>button {
+    width: 100%;
+    background-color: rgb(10, 92, 10);
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.blog-post>.info>.date {
+    color: grey;
+}
+
+.blog-post>.info>.author {
+    color: dimgray;
+}
+
+.blog-post>.image {
     height: 200px;
-    background-color: rgb(21, 129, 93);
     width: 300px;
+    background-color: #0d67a3;
+    margin: 0px 5px 0px 0px;
+}
+
+.blog-post>.info {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .blog-post-container {
@@ -44,6 +82,7 @@ a.fa {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 5px;
 }
 
 .blog-post-container>h1 {
@@ -143,7 +182,7 @@ footer {
 }
 
 .portifolio {
-    background-color: rgb(230, 217, 217);
+    background-color: rgb(231, 231, 231);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
