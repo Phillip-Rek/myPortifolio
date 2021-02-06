@@ -40,8 +40,15 @@ a.fa {
     border-radius: 5px;
 }
 
+.blog-post:hover {
+    border: 1px solid blue;
+    padding: 3px;
+    cursor: pointer;
+}
+
 .blog-post>.info {
     max-width: 300px;
+    padding: 3px;
 }
 
 .blog-post>.info>.read-more>button {
@@ -62,9 +69,10 @@ a.fa {
 }
 
 .blog-post>.image {
-    height: 200px;
+    min-height: 200px;
     width: 300px;
-    background-color: #0d67a3;
+    background: url(./public/pexels-tranmautritam-251225.jpg);
+    background-size: cover;
     margin: 0px 5px 0px 0px;
 }
 
