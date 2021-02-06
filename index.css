@@ -32,6 +32,24 @@ a.fa {
     font-size: 45px;
 }
 
+.blog-post {
+    height: 200px;
+    background-color: rgb(21, 129, 93);
+    width: 300px;
+}
+
+.blog-post-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-post-container>h1 {
+    color: slategray;
+}
+
 .connect {
     display: flex;
     flex-wrap: wrap;
@@ -109,10 +127,6 @@ footer {
     background-color: transparent;
 }
 
-.item-image>img {
-    height: 100%;
-}
-
 .learn-more>button {
     width: 95%;
     height: 27px;
@@ -152,8 +166,11 @@ footer {
 }
 
 .portifolio-item:hover {
-    border: 1px solid rgb(13, 103, 163);
+    border: 1px solid #0d67a3;
     background-color: white;
+    cursor: pointer;
+    height: 205px;
+    margin: 0px 5px 0px 5px;
 }
 
 .portifolio-item>h3 {
