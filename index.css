@@ -14,7 +14,7 @@ a.fa {
     min-height: 650px;
     width: auto;
     background-size: cover;
-    background-color: rgb(90, 90, 90);
+    background-color: rgb(98, 100, 134);
     background-blend-mode: darken;
     display: flex;
     flex-wrap: wrap;
@@ -125,6 +125,7 @@ a.fa {
 .content>h2 {
     margin-bottom: 15px;
     text-align: center;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
 .connect-container {
@@ -191,7 +192,7 @@ footer {
 }
 
 .portifolio {
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(142, 144, 179);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -205,12 +206,11 @@ footer {
 
 .portifolio-item {
     width: 340px;
-    background-color: rgb(230, 217, 217);
     height: 200px;
     margin: 5px;
     border-radius: 5px;
     text-align: center;
-    border: 1px solid rgb(131, 115, 115);
+    border: 1px solid white;
 }
 
 .portifolio-item:hover {
