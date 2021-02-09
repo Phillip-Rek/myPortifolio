@@ -3,6 +3,24 @@ a.fa {
     text-decoration: none;
 }
 
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section {
+    padding: 0px 10px 0px 10px;
+    max-width: 700px;
+}
+
+.about-section>h1 {
+    color: grey;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
 * {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0px;
@@ -157,6 +175,10 @@ a.fa {
     margin: 3px;
 }
 
+.find-me {
+    background-color: rgb(142, 144, 179);
+}
+
 footer {
     text-align: center;
     color: white;
@@ -201,7 +223,9 @@ footer {
 }
 
 .portifolio-heading {
+    color: grey;
     text-align: center;
+    margin: 20px 0px 20px 0px;
 }
 
 .portifolio-item {
@@ -245,4 +269,36 @@ footer {
 
 .rotate90 {
     transform: rotate(-90deg);
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 700px;
+}
+
+.technologies>h1 {
+    margin: 20px 0px 20px 0px;
+    color: grey;
+}
+
+.technologies>ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+.technologies>ul>li {
+    width: 100px;
+}
+
+.technologies-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
