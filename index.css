@@ -276,6 +276,7 @@ footer {
     margin: 5px;
     border-radius: 5px;
     text-align: center;
+    border: 1px solid rgb(79, 95, 139);
 }
 
 .portifolio-item:hover {
