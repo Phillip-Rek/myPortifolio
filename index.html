@@ -127,11 +127,23 @@
     </div>
     <div class="contact-me">
         <h1>Contact Me</h1>
-        <div class="contact-group">
-            <div class="form-control">Name: <input type="text"></div>
-            <div class="form-control">E-Mail: <input type="text"></div>
-            <div class="form-control">Message: <input type="text"></div>
-        </div>
+        <form class="contact-group" action="" method="POST">
+            <div class="form-control">Name
+                <br>
+                <input type="text" min="3">
+            </div>
+            <div class="form-control">E-Mail
+                <br>
+                <input type="email" min="10">
+            </div>
+            <div class="form-control">Message
+                <br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-control">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
     </div>
     <div class="find-me">
         <div class="connect-container">

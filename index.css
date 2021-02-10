@@ -114,12 +114,31 @@ a.fa {
 
 .blog-post-container>h1 {
     color: slategray;
+    margin: 10px 0px 10px 0px;
 }
 
 .connect {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+}
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.contact-me>h1 {
+    color: slategrey;
+    margin: 10px 0px 10px 0px;
+}
+
+.contact-group {
+    width: 100%;
+    max-width: 550px;
 }
 
 .contacts {
@@ -185,6 +204,29 @@ footer {
     background-color: black;
 }
 
+.form-control {
+    width: 100%;
+}
+
+.form-control>input,
+.form-control>button {
+    height: 30px;
+}
+
+.form-control>button {
+    background-color: green;
+    color: antiquewhite;
+    border-radius: 4px;
+}
+
+.form-control>input,
+.form-control>textarea,
+.form-control>button {
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+    border: 1px solid rgb(219, 217, 217);
+}
+
 .item-image {
     height: 135px;
     margin: 5px 0px 5px 0px;
@@ -234,11 +276,9 @@ footer {
     margin: 5px;
     border-radius: 5px;
     text-align: center;
-    border: 1px solid white;
 }
 
 .portifolio-item:hover {
-    border: 1px solid #0d67a3;
     background-color: white;
     cursor: pointer;
     height: 205px;
