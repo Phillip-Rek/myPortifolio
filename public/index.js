@@ -1,10 +1,10 @@
 const banner = document.getElementsByClassName("banner")[0];
 
 function changeBannerBackground() {
-    if (banner.style.backgroundImage !== 'url("./public/pexels-tranmautritam-251225.jpg")')
-        banner.style.backgroundImage = 'url("./public/pexels-tranmautritam-251225.jpg")';
+    if (banner.style.backgroundImage !== 'url("./pexels-tranmautritam-251225.jpg")')
+        banner.style.backgroundImage = 'url("./pexels-tranmautritam-251225.jpg")';
     else {
-        banner.style.backgroundImage = "url('./public/pexels-tranmautritam-326503.jpg')";
+        banner.style.backgroundImage = "url('./pexels-tranmautritam-326503.jpg')";
     }
 }
 
