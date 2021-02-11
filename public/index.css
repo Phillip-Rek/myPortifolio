@@ -28,7 +28,7 @@ a.fa {
 }
 
 .banner {
-    background-image: url("./public/pexels-tranmautritam-326503.jpg");
+    background-image: url("./pexels-tranmautritam-326503.jpg");
     min-height: 650px;
     width: auto;
     background-size: cover;
@@ -89,7 +89,7 @@ a.fa {
 .blog-post>.image {
     min-height: 200px;
     width: 340px;
-    background: url(./public/pexels-tranmautritam-251225.jpg);
+    background: url(./pexels-tranmautritam-251225.jpg);
     background-size: cover;
 }
 
@@ -229,7 +229,7 @@ footer {
 .item-image {
     height: 135px;
     margin: 5px 0px 5px 0px;
-    background-image: url(./public/pexels-pixabay-39284.jpg);
+    background-image: url(./pexels-pixabay-39284.jpg);
     background-size: cover;
     background-color: rgb(194, 181, 181);
     background-blend-mode: darken;
