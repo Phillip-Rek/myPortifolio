@@ -1,22 +1,22 @@
 {
-  "name": "myportifolio",
-  "version": "1.0.0",
-  "description": "My portifolio website",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Phillip-Rek/myPortifolio.git"
-  },
-  "author": "Phillip Rekhotho",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Phillip-Rek/myPortifolio/issues"
-  },
-  "homepage": "https://github.com/Phillip-Rek/myPortifolio#readme",
-  "dependencies": {
-    "perthite": "^1.0.6"
-  }
+    "name": "myportifolio",
+    "version": "1.0.0",
+    "description": "My portifolio website",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Phillip-Rek/myPortifolio.git"
+    },
+    "author": "Phillip Rekhotho",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Phillip-Rek/myPortifolio/issues"
+    },
+    "homepage": "https://github.com/Phillip-Rek/myPortifolio#readme",
+    "dependencies": {
+        "perthite": "^1.0.6"
+    }
 }
