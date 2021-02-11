@@ -231,13 +231,21 @@ footer {
     margin: 5px 0px 5px 0px;
     background-image: url(./pexels-pixabay-39284.jpg);
     background-size: cover;
-    background-color: rgb(194, 181, 181);
+    background-color: rgb(126, 125, 125);
     background-blend-mode: darken;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item-image:hover {
     background-color: transparent;
 }
+
+.item-image::before {}
+
+.item-image::after {}
 
 .learn-more>button {
     width: 95%;
@@ -279,7 +287,6 @@ footer {
 }
 
 .portifolio-item:hover {
-    background-color: white;
     cursor: pointer;
     height: 205px;
     margin: 0px 5px 0px 5px;
