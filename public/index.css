@@ -10,6 +10,14 @@ a.fa {
     align-items: center;
 }
 
+.about-project {
+    min-width: 340px;
+    min-height: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .about-section {
     padding: 0px 10px 0px 10px;
     max-width: 700px;
@@ -214,8 +222,8 @@ footer {
 }
 
 .item-image {
-    height: 135px;
-    margin: 5px 0px 5px 0px;
+    min-height: 175px;
+    min-width: 340px;
     background-image: url(./pexels-pixabay-39284.jpg);
     background-size: cover;
     background-color: rgb(126, 125, 125);
@@ -267,7 +275,6 @@ footer {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 5px 0px 5px 0px;
 }
 
 .portifolio-heading {
@@ -277,17 +284,21 @@ footer {
 }
 
 .portifolio-item {
-    width: 340px;
-    height: 200px;
+    min-width: 340px;
+    min-height: 200px;
     margin: 5px;
     border-radius: 5px;
     text-align: center;
     border: 1px solid rgb(79, 95, 139);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .portifolio-item:hover {
     cursor: pointer;
-    height: 205px;
+    min-height: 205px;
     margin: 0px 5px 0px 5px;
 }
 
