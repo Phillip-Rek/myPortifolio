@@ -24,3 +24,9 @@ function imgOrientationForChromeBrowsers() {
 }
 
 imgOrientationForChromeBrowsers()
+
+
+//adding translucent profile wrapper
+
+let profileContainer = document.querySelectorAll(".translucent-profile-background")[0];
+let profileDiv = document.querySelectorAll(".profile")[0];
