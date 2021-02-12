@@ -165,6 +165,7 @@ a.fa {
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    margin-top: 15px;
 }
 
 .connect-container>h3 {
@@ -265,8 +266,9 @@ footer {
 }
 
 .personal-details>.title {
-    border: 1px solid grey;
+    border: 1px solid darkgrey;
     border-radius: 70px;
+    background-color: grey;
 }
 
 .portifolio {
@@ -314,6 +316,8 @@ footer {
     flex-direction: row;
     align-content: center;
     justify-content: center;
+    clip-path: polygon(100% 0%, 100% 78%, 50% 100%, 0% 78%, 0 0);
+    background-color: rgb(94, 94, 83);
 }
 
 .profile-pic>a>img {
