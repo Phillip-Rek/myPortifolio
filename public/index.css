@@ -140,19 +140,6 @@ a.fa {
     max-width: 550px;
 }
 
-.contacts {
-    margin-bottom: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-}
-
-.contacts-items>span>span {
-    margin-left: 10px;
-}
-
 .content {
     color: white;
 }
@@ -243,10 +230,6 @@ footer {
     background-color: transparent;
 }
 
-.item-image::before {}
-
-.item-image::after {}
-
 .learn-more>button {
     width: 95%;
     height: 27px;
@@ -260,6 +243,22 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+.personal-details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.personal-details>h3,
+.personal-details>.title {
+    text-align: center;
+}
+
+.personal-details>.title {
+    border: 1px solid grey;
+    border-radius: 70px;
 }
 
 .portifolio {
