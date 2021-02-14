@@ -36,19 +36,30 @@ a.fa {
 }
 
 .banner {
-    background-image: url("./pexels-tranmautritam-326503.jpg");
+    background: url("./pexels-tranmautritam-326503.jpg");
     min-height: 444px;
     width: auto;
     background-size: cover;
-    background-color: rgb(44, 46, 94);
+    background-color: rgb(61, 63, 124);
     background-blend-mode: darken;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     z-index: -1;
     clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0% 90%, 0 0);
     padding: 5px;
+    animation: animate-banner-shape 1s ease-in;
+}
+
+@keyframes animate-banner-shape {
+    0% {
+        clip-path: polygon(100% 0%, 100% 90%, 50% 95%, 0% 90%, 0 0);
+    }
+    100% {
+        clip-path: polygon(100% 0%, 100% 90%, 50% 100%, 0% 90%, 0 0);
+    }
 }
 
 .banner>content {
@@ -197,6 +208,10 @@ footer {
     text-align: center;
     color: white;
     background-color: black;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-control {
@@ -252,6 +267,24 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+nav>a:hover {
+    background-color: rgb(7, 54, 48);
+}
+
+.nav-container {
+    margin-bottom: 30px;
 }
 
 .personal-details {
@@ -316,8 +349,20 @@ footer {
     flex-direction: row;
     align-content: center;
     justify-content: center;
-    clip-path: polygon(100% 0%, 95% 78%, 50% 100%, 5% 78%, 0 0);
     background-color: rgb(94, 94, 83);
+    animation: shape-animate 1s ease-in;
+    clip-path: polygon(100% 0%, 95% 78%, 50% 100%, 5% 78%, 0 0);
+}
+
+@keyframes shape-animate {
+    0% {
+        clip-path: polygon(100% 0%, 100% 78%, 50% 90%, 0% 78%, 0 0);
+        opacity: 70%;
+    }
+    100% {
+        clip-path: polygon(100% 0%, 95% 78%, 50% 100%, 5% 78%, 0 0);
+        opacity: 100%;
+    }
 }
 
 .profile-pic>a>img {
