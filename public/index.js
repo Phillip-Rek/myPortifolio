@@ -26,7 +26,15 @@ function imgOrientationForChromeBrowsers() {
 imgOrientationForChromeBrowsers()
 
 
-//adding translucent profile wrapper
+// Remove button for a navbar
 
-let profileContainer = document.querySelectorAll(".translucent-profile-background")[0];
-let profileDiv = document.querySelectorAll(".profile")[0];
+function navRemove() {
+    let rmBtn = document.getElementById("rm-nav");
+    rmBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        let navBar = document.getElementsByClassName("nav-container")[0];
+        navBar.remove();
+    })
+}
+
+navRemove()
