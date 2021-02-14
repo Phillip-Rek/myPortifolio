@@ -1,0 +1,18 @@
+.contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contacts-container>h1 {
+    color: slategray;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contacts-list>div>.fa {
+    width: 20px;
+}
