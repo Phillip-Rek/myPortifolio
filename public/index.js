@@ -23,7 +23,7 @@ function imgOrientationForChromeBrowsers() {
     }
 }
 
-imgOrientationForChromeBrowsers()
+//imgOrientationForChromeBrowsers()
 
 
 // Remove button for a navbar
