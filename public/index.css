@@ -128,7 +128,6 @@ a.fa {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5px;
     width: 100%;
 }
 
@@ -273,10 +272,13 @@ footer {
 
 nav {
     background-color: transparent;
-    flex: 3;
+    flex: 1;
     padding: 0px;
     height: fit-content;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 }
 
 nav>a {
@@ -303,18 +305,6 @@ nav>a:hover {
     top: 0px;
     z-index: 1;
     align-items: center;
-}
-
-.nav-container>.fa {
-    flex: 1;
-    text-align: right;
-    margin-right: 5px;
-    color: white;
-    height: fit-content;
-}
-
-.nav-container>.fa:hover {
-    color: red;
 }
 
 .personal-details {
